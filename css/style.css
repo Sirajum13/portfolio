@@ -1,0 +1,226 @@
+*{
+    margin:0;
+    padding:0;
+}
+body {
+  background-color:#f0e6ea;
+}
+.main{
+    width:100%;
+    background: linear-gradient(rgba(236, 120, 168, 0.5), rgba(180, 91, 128, 0.5)), url(images/b1.jpeg);
+    background-position: center;
+    background-size:cover;
+    position: relative;
+    height: 109vh;
+    }
+
+.navbar{
+    display: flex;
+    padding: 4%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav{
+    flex:1;
+    text-align:left;
+}
+
+.nav ul li{
+    display:inline-block;
+    margin-right:10px;
+    list-style: none;
+    padding:8px;
+}
+
+.nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.nav ul li a:hover{
+    color: #970542;
+}
+
+.content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+    font-size: 25px;
+}
+
+.content p{
+    font-size: smaller;
+    padding: 10px;
+}
+
+.content a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.content a:hover{
+    color:#970542;
+}
+
+.pi{
+    text-align: center;
+    width:80%;
+    padding-top: 100px;
+    margin:auto;
+}
+.pi h2{
+    font-size: 30px;
+    color: #970542;
+    padding-bottom: 20px;
+}
+.pi img{
+    width:1000px;
+    height:400px;
+    border-radius: 90%;
+    padding: 20px;
+}
+.pi p{
+    font-size: 20px;
+    color: #000000;
+    padding: 20px;
+    padding-bottom: 50px;
+}
+.pi a{
+    color: #970542;
+    text-decoration: none;
+}
+
+.edu h2{
+    color:#970542;
+    margin-bottom: 3%;
+}
+.edu table {
+    font-size: 16px;
+}
+.edu table th {
+    font-style: italic;
+    color: maroon;
+    font-weight: bold;
+    padding: 20px;
+    background-color:#f0e6ea ;
+}
+.edu table td {
+    padding: 20px;
+    text-align: center;
+}
+.edu table tr:nth-child(even) {
+    background-color: #ddcdd6;
+}
+
+
+.ts h2{
+    padding-top: 50px;
+    color:#970542;
+}
+.ts ul{
+    text-align: center;
+    padding: 20px;
+    list-style-type: none;
+}
+.ts ul li{
+    padding:10px;
+}
+.q{
+    margin-top: 5%;
+    padding:70px;
+    background-color:#e9acc5;
+}
+.q h3{
+    font-size: 25px;
+    font-family: "Dancing Script", cursive;
+    color:#970542;
+}
+.q h4{
+    font-size: 20px;
+    font-family: "Dancing Script", cursive;
+    color:#970542;
+}
+
+.row{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top:2%;
+}
+.col{
+    flex-basis: 31%;
+    text-align: center;
+    padding: 50px;
+    background:#ddc1d2;
+    border-radius: 15px;
+    margin-bottom:2%;
+    box-sizing: border-box;
+    margin:10%;
+    transition:0.5s;
+}
+.col a{
+    text-decoration: none;
+    color:#970542;
+}
+.col a h3{
+    font-size: 20px;
+    font-weight: bold;
+}
+.col:hover {
+    box-shadow: 0 0 20px 0px #970542;
+}
+.con h2{
+    text-align:center;
+    color:#970542;
+    padding-bottom: 70px;
+}
+.r{
+    justify-content:space-around;
+    display:flex;
+    align-items: center;
+    
+}
+.c{
+    padding: 0px;
+    background:#ddc1d2;
+    border-radius: 0px;
+}
+.c a img{
+    width:20px;
+    height:20px;
+    padding:20px;
+    margin:0px;
+    transition:0.5s;
+    background-color: #f0e6ea;
+}
+.c a img:hover{
+    box-shadow: #970542;
+}
+.discord h2 {
+    text-align: center;
+    color: #970542;
+    padding-top: 70px;
+}
+.discord a{
+    text-decoration:none;
+    padding:40px;
+    margin-bottom: 50px;
+}
+.discord h2:hover{
+    color:#501136;
+    text-shadow: 0 0 5px #970542;
+}
+.time {
+    text-align:center;
+    padding-top:100px;
+    color:#970542;
+}
+.footer{
+    text-align: center;
+}
