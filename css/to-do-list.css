@@ -1,0 +1,58 @@
+body {
+  background-color:#f0e6ea ;
+}
+.h h4{
+    text-align: center;
+    color:#970542;
+}
+
+.todobox {
+  padding: 30px; 
+  padding-left:40%;
+  border-radius: 8px;
+  width: 400px;
+}
+
+.input-group {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+input[type="text"] {
+  flex: 1;
+  padding: 10px;
+  font-size: 16px;
+}
+
+button {
+  padding: 10px 15px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #970542;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  background-color: #dba3ba;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+li.completed span {
+  text-decoration: line-through;
+  color: #970542;
+}
+
+li span {
+  flex-grow: 1;
+  margin-left: 10px;
+}

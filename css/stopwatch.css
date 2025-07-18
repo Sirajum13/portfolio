@@ -1,0 +1,39 @@
+body {
+  background-color:#f0e6ea ;
+}
+.h{
+    text-align: center;
+    color:#970542;
+    padding: 50px;
+    font-size: 50px;
+}
+
+.stopwatch-container {
+  text-align: center;
+  background: #cfb2bf;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #970542;
+}
+
+#display {
+  font-size: 48px;
+  margin-bottom: 20px;
+  color: #970542;
+}
+
+.controls button {
+  margin: 0 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 20px;
+  background-color: #926a7b;
+
+}
+.message {
+  display: none;
+  color: #970542;
+  font-size: 18px;
+  margin-top: 20px;
+}

@@ -1,0 +1,55 @@
+body {
+  background-color:#f0e6ea ;
+}
+.h h4{
+    text-align: center;
+    color:#970542;
+}
+.fortune-box-container {
+  text-align: center;
+  margin-bottom: 30px;
+  padding: 20px;
+}
+
+#fortune-box {
+  border: 2px solid #000;
+  background-color: #cfb2bf;
+  padding: 20px;
+  font-size: 18px;
+  max-width: 600px;
+  margin: 0 auto 10px;
+  transition:0.1s;
+  border-radius: 10px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 20px;
+}
+
+.box {
+  width: 80px;
+  height: 80px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+
+.s1 {
+  background-color:#ad6489ff;
+}
+.s2 {
+  background-color: #d2aae4ff;
+}
+.s3 {
+  background-color: #a0c4e4ff;
+}
+.s4 {
+  background-color: #bbe593ff;
+}
