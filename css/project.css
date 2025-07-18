@@ -14,7 +14,14 @@ body {
     font-weight:bold;
     list-style-type: none;
 }
-.pd p{
+.pd li a{
+    color: #970542;
+    text-decoration: none;
+}
+.pd li a:hover{
+    color: #6e1d4e;
+}
+.pd dl{
     text-align: center;
     margin:2%;
     font-size: larger;
