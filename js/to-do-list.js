@@ -64,5 +64,4 @@ function deleteTask(index) {
   renderTasks();
 }
 
-// Initial render on page load
 renderTasks();
